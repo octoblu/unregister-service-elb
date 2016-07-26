@@ -1,3 +1,6 @@
+branches:
+  only:
+  - "/^v[0-9]/"
 sudo: false
 language: shell
 script:
