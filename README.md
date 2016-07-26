@@ -1,2 +1,2 @@
 # unregister-service-elb
-Unregister from an ELB
+Unregister a new server with the elb
