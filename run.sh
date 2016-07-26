@@ -11,7 +11,7 @@ unregister_instance(){
   local elb_name=$(echo -n "${1}" | tr -d '\n')
   local instance_id="${2}"
 
-  aws elb deregister-instances-with-load-balancer \
+  aws elb deregister-instances-from-load-balancer \
     --load-balancer-name "${elb_name}" \
     --instances "${instance_id}"
 }
